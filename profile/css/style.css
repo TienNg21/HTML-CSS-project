@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #E8F6EF;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+a {
+    text-decoration: none;
+    background-color: powderblue;
+    color: midnightblue;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+a:hover {
+    background-color: mintcream;
+    color: midnightblue;
+}
+
+hr {
+    color: gray;
+    width: 10%;
+    border: 3px none none;
+    border-style: dotted none none;
+    border-width: 10px;
+    clear: left;
+}
+
+h1{
+    color: #66BFBF;
+}
+
+.top-container {
+    position: relative;
+    top: 0px;
+    padding-top: 50px;
+}
+
+.top-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    z-index: 1;
+}
+
+.top-name h1{
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+}
+
+.top-name p {
+    font-size: 25px;
+}
+
+#cloud-img {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 250px;
+    width: 200px;
+}
+
+#city-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 350px;
+    width: 350px;
+}
+
+#sun-img {
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+
+    width: 150px;
+}
+
+.middle-container {
+    background-color: #8FC1D4;
+    position: relative;
+    top: 700px;
+    padding-bottom: 10px;
+}
+
+.contact-me,
+.profile {
+    width: 50%;
+    margin: auto;
+}
+
+.profile .circle {
+    margin-top: 30px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.skills {
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row img{
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.bottom-container {
+    padding: 10px 0;
+    top: 725px;
+    position: relative;
+}
